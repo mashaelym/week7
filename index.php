@@ -7,7 +7,7 @@ private function __construct()
 {
    
 try {
-   self::$db = new PDO( 'mysql:host=sql1.njit.edu;dbname=ma735', 'ma735', 'olZd6y4DE' );
+   self::$db = new PDO( 'mysql:host=sql1.njit.edu;dbname=ma735', 'ma735', 'Zv51vHNoj' );
    self::$db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
    print "Connected successfully" . "<br/>";
     }
